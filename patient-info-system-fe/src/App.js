@@ -10,7 +10,6 @@ const App = () => {
     <Router>
       <div className="App">
         <header>
-          <h1>Sistema de Información de Pacientes</h1>
         </header>
         <main>
           <Routes>
