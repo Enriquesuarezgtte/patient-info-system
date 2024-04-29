@@ -1,0 +1,197 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  h1 {
+    font-size: 2em;
+    line-height: 1.5;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    line-height: 1.2;
+  }
+  
+  p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .appointment-details {
+    margin-right: 20px; /* Adjust the margin value as needed */
+  }
+    
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  h2 {
+    margin: 1rem 0;
+  }
+  
+.login-container {
+background-color: #fff;
+border: 1px solid #ddd;
+border-radius: 5px;
+padding: 30px;
+width: 400px; /* Adjust width based on your image */
+margin: 0 auto; /* Center the container horizontally */
+position: relative; /* Needed for potential absolute positioning of text elements */
+}
+
+header h1 {
+    position: absolute; /* Position text absolutely within the container */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Offset to align with container center */
+    color: #fff; /* Assuming white text */
+    text-align: center; /* Center text horizontally */
+    font-size: 2em; /* Adjust font size as desired */
+    font-family: sans-serif; /* Adjust font family as desired */
+  }
+
+  input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #f0f0f0;
+}
+
+button[type="submit"] {
+    background-color: #1976d2;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .home-container {
+    background-size: cover; /* Adjust background size as desired */
+    background-position: center; /* Adjust background position as desired */
+    /* Additional styles for content positioning (see below) */
+  }
+  
+  .home-container {
+    /* ... background styles from previous step */
+    display: flex; /* Allow for vertical or horizontal alignment */
+    flex-direction: column; /* Stack content vertically by default */
+    justify-content: center; /* Align content vertically in the center */
+    align-items: center; /* Align content horizontally in the center */
+    padding: 20px; /* Add padding if needed */
+    color: #fff; /* Assuming white text for readability */
+  }
+  
+  .home-container h1 {
+    font-size: 2em; /* Adjust font size as desired */
+    text-align: center; /* Center text horizontally */
+  }
+
+  .new-patient-container {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .form-group input[type="radio"] {
+    width: auto;
+    margin-right: 5px;
+  }
+  
+  .radio-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .radio-buttons label {
+    margin-right: 15px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right; /* Can be adjusted for button placement */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  .checkbox-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow checkboxes to wrap on smaller screens */
+  }
+  
+  .checkbox-container label {
+    margin-right: 15px;
+    margin-bottom: 5px;
+  }
+  .checkbox-container input[type="checkbox"]:checked {
+    /* Add styles to visually differentiate checked state */
+    background-color: #ddd; /* Optional background color for checked */
+  }
+
+
+
+  .patient-item {
+    display: flex; /* Make patient items flexbox containers */
+    justify-content: space-between; /* Distribute items evenly */
+    margin-bottom: 10px; /* Add spacing between patients */
+    border-bottom: 1px solid #ddd; /* Add a dividing line */
+    padding: 5px; /* Add some padding */
+  }
+  .patient-list {
+    display: flex; /* Assuming flexbox layout */
+    justify-content: space-between; /* Distributes items with space on right */
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+  
+
+  .home-btn {
+    background-color: #dedede; /* Adjust color as needed */
+    color: #333; /* Adjust color as needed */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem; /* Add some margin for spacing */
+  }
+  
+  .home-btn:hover {
+    background-color: #cccccc;
+  }
+  
